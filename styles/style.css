@@ -150,7 +150,28 @@ background-clip: text;
     bottom: 150px;
     right: 50px;
 }
-
+.button-part{
+    margin: 100px 100px;
+    padding: 100px 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px ;
+}
+.button-filed{
+    display: flex;
+}
+.button-filed img{
+    height: 40px;
+    width: 40px;
+}
+.button-filed:hover{
+    border: 2px solid lightcoral;
+    border-radius: 30px ;
+}
+footer{
+    background-color: #0B0223;;
+}
 
 
 /* responsivenes styles */
