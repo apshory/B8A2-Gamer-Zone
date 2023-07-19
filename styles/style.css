@@ -170,7 +170,20 @@ background-clip: text;
     border-radius: 30px ;
 }
 footer{
+    padding-top: 10px;
+    padding-bottom: 50px;
+     text-align: center;
     background-color: #0B0223;;
+}
+.our-them{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+footer svg{
+    padding: 20px;
+
 }
 
 
