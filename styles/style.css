@@ -62,7 +62,7 @@ padding-right: 90px;}
 /* banner styles  */
 .banner-container{
     display: flex;
-    justify-content: space-between;
+    gap: 70px;
 }
 .banner-content{
     width: 500px;
@@ -96,3 +96,39 @@ background-clip: text;
     border-radius: 10px;
     border: none;
 } 
+
+
+
+
+/* responsivenes styles */
+@media screen and (max-width:450px) {
+    header{
+        align-items: center;
+    }
+    .nav-container  , .banner-container{
+
+        
+        flex-direction: column;
+        text-align: center;
+    }
+    nav>ul{
+        text-align: center;
+        flex-direction: column;
+    }
+    .follow-us{
+        padding-top: 0;
+        padding-right: 0;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .banner-content{
+        width: 200px;
+        height: 100px;
+        background-size: 100%;
+    }
+    .banner-write-part{
+        position: relative;
+        bottom:  100px;
+    }
+}
